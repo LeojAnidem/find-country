@@ -1,0 +1,8 @@
+.hover-effect {
+  padding: 2px 6px;
+  margin: 0 4px;
+
+  font-weight: bold;
+  background: var(--green-light);
+  color: var(--black);
+}

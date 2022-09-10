@@ -1,0 +1,27 @@
+.github-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 0;
+  height: 0;
+
+  border-right: 100px solid var(--green);
+  border-top: 75px solid var(--green);
+  border-left: 100px solid transparent;
+  border-bottom: 75px solid transparent;
+}
+
+.github__icon {
+  position: absolute;
+  bottom: -20px;
+  left: 15px;
+
+  font-size: 60rem;
+  color: var(--green-dark);
+}
+
+.github__icon:hover {
+  color: var(--black);
+  transition: ease-out 300ms;
+}
