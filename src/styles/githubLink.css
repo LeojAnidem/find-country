@@ -6,18 +6,18 @@
   width: 0;
   height: 0;
 
-  border-right: 100px solid var(--green);
-  border-top: 75px solid var(--green);
-  border-left: 100px solid transparent;
-  border-bottom: 75px solid transparent;
+  border-right: var(--git-weight) solid var(--green); /*100px*/
+  border-top: var(--git-height) solid var(--green); /*75px*/
+  border-left: var(--git-weight) solid transparent; /*100px*/
+  border-bottom: var(--git-height) solid transparent; /*75px*/
 }
 
 .github__icon {
   position: absolute;
-  bottom: -20px;
-  left: 15px;
+  bottom: calc((var(--git-height) * -26.666)/100); /*-20px*/
+  left: calc((var(--git-weight) * 15)/100); /*15px*/
 
-  font-size: 60rem;
+  font-size: var(--size-big);
   color: var(--green-dark);
 }
 

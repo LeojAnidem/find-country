@@ -1,0 +1,14 @@
+@media screen and (max-width: 428px) {
+  :root {
+    --size: 18rem;
+  }
+
+  .results__btn,
+  .results__block {
+    display: none;
+  }
+
+  .results__btn--small {
+    display: block;
+  }
+}

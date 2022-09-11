@@ -1,6 +1,6 @@
 .hover-effect {
-  padding: 2px 6px;
-  margin: 0 4px;
+  padding: calc((var(--size-small) * 8.333)/100) calc((var(--size-small) * 25)/100); /*2px 6px*/
+  margin: 0 calc((var(--size-small) * 16.666)/100); /*4px*/
 
   font-weight: bold;
   background: var(--green-light);

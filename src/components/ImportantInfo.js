@@ -1,5 +1,5 @@
 import { HighlightMatch } from "./HighlightMatch";
-import { FaUsers } from 'react-icons/fa';
+import { FaUsers, FaChevronRight} from 'react-icons/fa';
 import '../styles/importantInfo.css'
 
 export const ImportantInfo = ({arr, matchString, changer}) => {
@@ -35,6 +35,13 @@ export const ImportantInfo = ({arr, matchString, changer}) => {
                     onClick={() => {changer(name.common)}}
                   >
                     Show more
+                  </button>
+
+                  <button
+                    className="results__btn results__btn--small"
+                    onClick={() => {changer(name.common)}}
+                  >
+                    <FaChevronRight />
                   </button>
                 </div>
               </div>

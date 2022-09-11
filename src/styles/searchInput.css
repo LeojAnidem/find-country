@@ -1,5 +1,5 @@
 .search-bg {
-  padding-bottom: 10px;
+  padding-bottom: calc((var(--size-small) * 41.666)/100); /*10px*/
 
   display: grid;
   grid-template-columns: auto 1fr;
@@ -7,16 +7,16 @@
   align-items: center;
 
   width: 100%;
-  height: 60px;
+  height: var(--size-big);
 
-  border-bottom: 5px solid var(--green);
+  border-bottom: calc((var(--size-small) * 20.833)/100) solid var(--green); /*5px*/
 }
 
 .search__input {
   all: unset;
-  padding:0 20px;
+  padding:0 var(--tiny-text); /*20px*/
   background: transparent;
-  font-size: 36px;
+  font-size: var(--size);
 }
 
 .search__icon {

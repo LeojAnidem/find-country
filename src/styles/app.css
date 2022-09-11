@@ -7,6 +7,21 @@
   --green-dark: #1E5128;
   --green: #4E9F3D;
   --green-light: #D8E9A8;
+  
+  --size: 36rem;
+  
+  --size-big: calc((var(--size) * 166.666)/100); /*60rem*/
+  --size-normal: calc((var(--size) * 111.111)/100); /*40rem*/
+  --size-small: calc((var(--size) * 66.666)/100); /*24rem*/
+
+  --git-height: calc((var(--size) * 208.333)/100); /*75rem*/
+  --git-weight: calc((var(--size) * 277.777)/100); /*100rem*/
+  
+  --tiny-text: calc((var(--size-small) * 83.333/100)); /*20rem*/
+  --list-item-size: calc((var(--size-small) * 70.833/100)); /*17rem*/
+  --btn-text-size: calc((var(--size-small) * 58.333/100)); /*14rem*/
+
+  --root-size: calc((var(--size) * 1527.777)/100); /*550rem*/
 }
 
 *{
@@ -31,15 +46,14 @@ body {
   color: var(--white);
 
   font-family: 'Varela Round', sans-serif;
-  font-size: 36rem;
+  font-size: var(--size);
 }
 
 #root {
-  /* overflow: hidden; */
   display: grid;
   place-items: center;
 
-  width: 550px;
+  width: var(--root-size);
 
-  gap: 60px;
+  gap: var(--size-big);
 }

@@ -5,6 +5,7 @@ import { Matches } from './components/Matches'
 import { GitHubLink } from './components/GitHubLink'
 import { SearchInput } from './components/SearchInput'
 import './styles/app.css'
+import './styles/mobile.css'
 
 //////////////////////////////////////////////////////////////////
 
